@@ -39,7 +39,7 @@ switch (a){
 		printf("Isleminiz Basari Ile Gerceklestirildi.\n");
 	break ;
 	case 3 :
-		printf("Hesap Bakiyenizi Ben Nerden Bileyim Beyfendi/Hanfendi.\n");
+		printf("Hesap Bakiyeniz Bilinmiyor.\n");
 	break ;
 	case 4 :
 		printf("Gondereceginiz Bakiyeyi Giriniz.\n");
@@ -70,7 +70,7 @@ switch (a){
   switch(x)
   {
     case 1:
-    printf("10.000 TL'ye kadar kredi çekebilirsiniz.\nKredi Çekmek Ýstediginiz Tutari Giriniz.\n");
+    printf("10.000 TL'ye kadar kredi Ã§ekebilirsiniz.\nKredi Ã‡ekmek Ä°stediginiz Tutari Giriniz.\n");
    tekrar: 
     scanf("%d",&kredi);
      if (kredi<=10000)
@@ -85,12 +85,12 @@ switch (a){
     }
     break;
     case 2:
-    printf("5000 TL'ye kadar kredi cekebilirsiniz.\nKredi Çekmek Ýstediginiz Tutari Giriniz.\n ");
+    printf("5000 TL'ye kadar kredi cekebilirsiniz.\nKredi Ã‡ekmek Ä°stediginiz Tutari Giriniz.\n ");
     tekrar1:
     scanf("%d",&kredi);
      if (kredi<=5000)
     {
-      printf("Paranizi Alin Aq");
+      printf("Paranizi Aliniz");
       goto tekrar11;
     }
     else if (kredi>5000 || kredi < 0)
@@ -100,12 +100,12 @@ switch (a){
     }
     break;
     case 3:
-    printf("Kredi cekemezsiniz.Sadece 1000 TL'ye kadar Ýhtiyac kredisi cekebilirsiniz.\nKredi Çekmek Ýstediginiz Tutari Giriniz.\n ");
+    printf("Kredi cekemezsiniz.Sadece 1000 TL'ye kadar Ä°htiyac kredisi cekebilirsiniz.\nKredi Ã‡ekmek Ä°stediginiz Tutari Giriniz.\n ");
     tekrar2:
     scanf("%d",&kredi);
      if (kredi<=1000)
     {
-      printf("Paranizi Alin Aq");
+      printf("Paranizi Aliniz");
       goto tekrar11;
     }
     else if (kredi>1000 || kredi < 0)
@@ -124,7 +124,7 @@ switch (a){
 
 
   case 6 :
-  printf("Kartinizi Aliniz Ýyi Günler Dileriz");
+  printf("Kartinizi Aliniz Ä°yi GÃ¼nler Dileriz");
 break;
 	default :
 		printf("Sectiginiz Islem Gecersizdir.\n");
